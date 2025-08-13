@@ -47,7 +47,7 @@ function Form({ route, method }) {
         className="form-input"
         type="password"
         value={password}
-        onChange={(event) => setUsername(event.target.value)}
+        onChange={(event) => setPassword(event.target.value)}
         placeholder="Password"
       />
       <button className="form-button" type="submit">
